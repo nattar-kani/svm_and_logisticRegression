@@ -13,6 +13,4 @@ It includes training, testing, evaluation, and prediction workflows with clean, 
 - Performance metrics using `classification_report`
 - Example prediction on new input data
 
----
 
-## 📂 Project Structure
