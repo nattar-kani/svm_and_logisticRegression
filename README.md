@@ -1,23 +1,25 @@
-# SVM and Logistic Regression Project
+# Iris Species Prediction App 🌸
 
-## 📌 Overview
-This project demonstrates the implementation of **Logistic Regression** and **Support Vector Machines (SVM)** for classification tasks.  
-It includes training, testing, evaluation, and prediction workflows with clean, reproducible Python code.
+This project uses **SVM** and **Logistic Regression** models to classify Iris flowers into three species:
+- Setosa
+- Versicolor
+- Virginica
 
----
-
-## ⚙️ Features
-- Logistic Regression with sigmoid function
-- SVM (Support Vector Machine) with linear kernel
-- Model training and evaluation (train/test split)
-- Performance metrics using `classification_report`
-- Example prediction on new input data
+The app allows you to:
+- Choose between 5 trained models (SVM Binary, Logistic Binary, SVM Multi-class, Logistic OVR, Logistic Multinomial).
+- Input Sepal & Petal measurements.
+- Get the predicted species.
 
 ---
 
-## 🚀 Getting Started
+## 🚀 Live Demo  
+👉 [Try the App on Streamlit](https://svm-and-logisticregression-nattarkani.streamlit.app/)
 
-### 1. Clone the Repository
+---
+
+## ⚙️ How to Run Locally
 ```bash
-git clone https://github.com/<your-username>/<your-repo-name>.git
-cd <your-repo-name>
+git clone https://github.com/<your-username>/<your-repo>.git
+cd <your-repo>
+pip install -r requirements.txt
+streamlit run app.py
